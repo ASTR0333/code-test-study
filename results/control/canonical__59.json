@@ -1,0 +1,18 @@
+{
+  "model": "canonical",
+  "task_id": "HumanEval/59",
+  "entry_point": "largest_prime_factor",
+  "base_n": 5,
+  "plus_n": 174,
+  "status": "pass",
+  "base_pass": true,
+  "base_executed": 5,
+  "plus_executed": 174,
+  "plus_first_failure_rank": null,
+  "phase": "plus",
+  "current_rank": 174,
+  "current_input_index": 41,
+  "elapsed_seconds": 6.956706800003303,
+  "returncode": 0,
+  "wall_seconds": 7.62032069999259
+}

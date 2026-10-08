@@ -1,0 +1,11 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.3.5",
+  "seed": 20261008,
+  "min_time_seconds": 1.0,
+  "time_factor": 4,
+  "jobs": 3,
+  "utc": "2026-10-08T20:06:49Z",
+  "runner_sha256": "be4650fb5a3dc45de8161e61913f58930b1f479941099eea92c9ccacd4fc7fc4"
+}

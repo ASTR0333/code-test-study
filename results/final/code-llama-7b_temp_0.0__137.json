@@ -1,0 +1,27 @@
+{
+  "model": "code-llama-7b_temp_0.0",
+  "task_id": "HumanEval/137",
+  "entry_point": "compare_one",
+  "base_n": 8,
+  "plus_n": 1000,
+  "status": "mismatch",
+  "base_pass": false,
+  "base_executed": 5,
+  "plus_executed": 0,
+  "plus_first_failure_rank": null,
+  "phase": "base",
+  "current_rank": 5,
+  "current_input_index": 4,
+  "failure": {
+    "phase": "base",
+    "rank": 5,
+    "input_index": 4,
+    "input": "[1, '2,3']",
+    "expected": "'2,3'",
+    "actual": "None",
+    "exception": "TypeError: '>' not supported between instances of 'str' and 'int'"
+  },
+  "elapsed_seconds": 7.9699995694682e-05,
+  "returncode": 0,
+  "wall_seconds": 0.5726483999751508
+}

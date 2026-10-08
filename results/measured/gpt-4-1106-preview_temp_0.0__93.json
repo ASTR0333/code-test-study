@@ -1,0 +1,27 @@
+{
+  "model": "gpt-4-1106-preview_temp_0.0",
+  "task_id": "HumanEval/93",
+  "entry_point": "encode",
+  "base_n": 5,
+  "plus_n": 1000,
+  "status": "mismatch",
+  "base_pass": false,
+  "base_executed": 1,
+  "plus_executed": 0,
+  "plus_first_failure_rank": null,
+  "phase": "base",
+  "current_rank": 1,
+  "current_input_index": 0,
+  "failure": {
+    "phase": "base",
+    "rank": 1,
+    "input_index": 0,
+    "input": "['TEST']",
+    "expected": "'tgst'",
+    "actual": "'tGst'",
+    "exception": null
+  },
+  "elapsed_seconds": 4.4899992644786835e-05,
+  "returncode": 0,
+  "wall_seconds": 0.5851071999932174
+}

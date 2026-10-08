@@ -1,0 +1,27 @@
+{
+  "model": "code-llama-7b_temp_0.0",
+  "task_id": "HumanEval/96",
+  "entry_point": "count_up_to",
+  "base_n": 10,
+  "plus_n": 180,
+  "status": "mismatch",
+  "base_pass": false,
+  "base_executed": 1,
+  "plus_executed": 0,
+  "plus_first_failure_rank": null,
+  "phase": "base",
+  "current_rank": 1,
+  "current_input_index": 0,
+  "failure": {
+    "phase": "base",
+    "rank": 1,
+    "input_index": 0,
+    "input": "[5]",
+    "expected": "[2, 3]",
+    "actual": "None",
+    "exception": "NameError: name 'is_prime' is not defined"
+  },
+  "elapsed_seconds": 3.709999145939946e-05,
+  "returncode": 0,
+  "wall_seconds": 0.7125638000143226
+}

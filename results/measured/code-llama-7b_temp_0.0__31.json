@@ -1,0 +1,18 @@
+{
+  "model": "code-llama-7b_temp_0.0",
+  "task_id": "HumanEval/31",
+  "entry_point": "is_prime",
+  "base_n": 13,
+  "plus_n": 154,
+  "status": "timeout",
+  "base_pass": true,
+  "base_executed": 13,
+  "plus_executed": 15,
+  "plus_first_failure_rank": null,
+  "phase": "plus",
+  "current_rank": 16,
+  "current_input_index": 128,
+  "error": "Per-call deadline exceeded",
+  "returncode": 124,
+  "wall_seconds": 1.753495099983411
+}

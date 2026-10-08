@@ -1,0 +1,18 @@
+{
+  "model": "canonical",
+  "task_id": "HumanEval/2",
+  "entry_point": "truncate_number",
+  "base_n": 3,
+  "plus_n": 971,
+  "status": "pass",
+  "base_pass": true,
+  "base_executed": 3,
+  "plus_executed": 971,
+  "plus_first_failure_rank": null,
+  "phase": "plus",
+  "current_rank": 971,
+  "current_input_index": 358,
+  "elapsed_seconds": 0.008928499999456108,
+  "returncode": 0,
+  "wall_seconds": 0.7755118999921251
+}

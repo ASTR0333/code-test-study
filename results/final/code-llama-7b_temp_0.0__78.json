@@ -1,0 +1,16 @@
+{
+  "model": "code-llama-7b_temp_0.0",
+  "task_id": "HumanEval/78",
+  "entry_point": "hex_key",
+  "base_n": 13,
+  "plus_n": 1000,
+  "status": "load_error",
+  "base_pass": false,
+  "base_executed": 0,
+  "plus_executed": 0,
+  "plus_first_failure_rank": null,
+  "phase": "setup",
+  "error": "SyntaxError: '[' was never closed (<unknown>, line 39)",
+  "returncode": 0,
+  "wall_seconds": 0.6099307000113185
+}

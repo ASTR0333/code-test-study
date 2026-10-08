@@ -1,0 +1,27 @@
+{
+  "model": "code-llama-7b_temp_0.0",
+  "task_id": "HumanEval/94",
+  "entry_point": "skjkasdkd",
+  "base_n": 9,
+  "plus_n": 1000,
+  "status": "mismatch",
+  "base_pass": false,
+  "base_executed": 1,
+  "plus_executed": 0,
+  "plus_first_failure_rank": null,
+  "phase": "base",
+  "current_rank": 1,
+  "current_input_index": 0,
+  "failure": {
+    "phase": "base",
+    "rank": 1,
+    "input_index": 0,
+    "input": "[[0, 3, 2, 1, 3, 5, 7, 4, 5, 5, 5, 2, 181, 32, 4, 32, 3, 2, 32, 324, 4, 3]]",
+    "expected": "10",
+    "actual": "None",
+    "exception": null
+  },
+  "elapsed_seconds": 0.00010350000229664147,
+  "returncode": 0,
+  "wall_seconds": 0.6712038000114262
+}

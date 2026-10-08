@@ -1,0 +1,18 @@
+{
+  "model": "canonical",
+  "task_id": "HumanEval/93",
+  "entry_point": "encode",
+  "base_n": 5,
+  "plus_n": 1000,
+  "status": "pass",
+  "base_pass": true,
+  "base_executed": 5,
+  "plus_executed": 1000,
+  "plus_first_failure_rank": null,
+  "phase": "plus",
+  "current_rank": 1000,
+  "current_input_index": 754,
+  "elapsed_seconds": 0.09246760001406074,
+  "returncode": 0,
+  "wall_seconds": 0.7494942999910563
+}

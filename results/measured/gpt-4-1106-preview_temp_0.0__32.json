@@ -1,0 +1,27 @@
+{
+  "model": "gpt-4-1106-preview_temp_0.0",
+  "task_id": "HumanEval/32",
+  "entry_point": "find_zero",
+  "base_n": 100,
+  "plus_n": 788,
+  "status": "mismatch",
+  "base_pass": true,
+  "base_executed": 100,
+  "plus_executed": 1,
+  "plus_first_failure_rank": 1,
+  "phase": "plus",
+  "current_rank": 1,
+  "current_input_index": 779,
+  "failure": {
+    "phase": "plus",
+    "rank": 1,
+    "input_index": 779,
+    "input": "[[-1, 10, 17, -1663749999, 9, 0]]",
+    "expected": "-0.0008462958875922928",
+    "actual": "None",
+    "exception": "ValueError: List of coefficients must have an even number of terms and the last coefficient must be non-zero."
+  },
+  "elapsed_seconds": 0.009281199978431687,
+  "returncode": 0,
+  "wall_seconds": 0.5822711999935564
+}

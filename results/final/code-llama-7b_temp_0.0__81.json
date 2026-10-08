@@ -1,0 +1,16 @@
+{
+  "model": "code-llama-7b_temp_0.0",
+  "task_id": "HumanEval/81",
+  "entry_point": "numerical_letter_grade",
+  "base_n": 6,
+  "plus_n": 1000,
+  "status": "load_error",
+  "base_pass": false,
+  "base_executed": 0,
+  "plus_executed": 0,
+  "plus_first_failure_rank": null,
+  "phase": "setup",
+  "error": "SyntaxError: unterminated string literal (detected at line 45) (<unknown>, line 45)",
+  "returncode": 0,
+  "wall_seconds": 0.6176804999995511
+}

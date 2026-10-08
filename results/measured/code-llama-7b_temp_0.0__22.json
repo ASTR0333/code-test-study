@@ -1,0 +1,27 @@
+{
+  "model": "code-llama-7b_temp_0.0",
+  "task_id": "HumanEval/22",
+  "entry_point": "filter_integers",
+  "base_n": 3,
+  "plus_n": 953,
+  "status": "mismatch",
+  "base_pass": true,
+  "base_executed": 3,
+  "plus_executed": 3,
+  "plus_first_failure_rank": 3,
+  "phase": "plus",
+  "current_rank": 3,
+  "current_input_index": 849,
+  "failure": {
+    "phase": "plus",
+    "rank": 3,
+    "input_index": 849,
+    "input": "[[0, False, '3', 4, [79.39385924319336, 75.06494853429405, 35.50077440707028, 37.306238284726476, 77.9888126831583, -22.544858750883094, 43.68781663560574], 61, True, '', {'9.0': '', '77.9888126831583': 'zFA', '96.49878140613427': 15, '1.3': 'b', '43.68781663560574': 4, '37.306238284726476': True, '5.6': None}, False]]",
+    "expected": "[0, 4, 61]",
+    "actual": "[0, False, 4, 61, True, False]",
+    "exception": null
+  },
+  "elapsed_seconds": 0.00017329998081550002,
+  "returncode": 0,
+  "wall_seconds": 0.6363739999942482
+}

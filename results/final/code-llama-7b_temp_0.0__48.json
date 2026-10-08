@@ -1,0 +1,18 @@
+{
+  "model": "code-llama-7b_temp_0.0",
+  "task_id": "HumanEval/48",
+  "entry_point": "is_palindrome",
+  "base_n": 7,
+  "plus_n": 989,
+  "status": "pass",
+  "base_pass": true,
+  "base_executed": 7,
+  "plus_executed": 989,
+  "plus_first_failure_rank": null,
+  "phase": "plus",
+  "current_rank": 989,
+  "current_input_index": 269,
+  "elapsed_seconds": 0.004894199984846637,
+  "returncode": 0,
+  "wall_seconds": 0.6169188999920152
+}

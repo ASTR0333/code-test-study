@@ -1,0 +1,18 @@
+{
+  "model": "gpt-4-1106-preview_temp_0.0",
+  "task_id": "HumanEval/149",
+  "entry_point": "sorted_list_sum",
+  "base_n": 7,
+  "plus_n": 979,
+  "status": "pass",
+  "base_pass": true,
+  "base_executed": 7,
+  "plus_executed": 979,
+  "plus_first_failure_rank": null,
+  "phase": "plus",
+  "current_rank": 979,
+  "current_input_index": 148,
+  "elapsed_seconds": 0.01844149999669753,
+  "returncode": 0,
+  "wall_seconds": 0.6821227000036743
+}

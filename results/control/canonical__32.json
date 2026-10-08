@@ -1,0 +1,27 @@
+{
+  "model": "canonical",
+  "task_id": "HumanEval/32",
+  "entry_point": "find_zero",
+  "base_n": 100,
+  "plus_n": 788,
+  "status": "mismatch",
+  "base_pass": true,
+  "base_executed": 100,
+  "plus_executed": 147,
+  "plus_first_failure_rank": 147,
+  "phase": "plus",
+  "current_rank": 147,
+  "current_input_index": 177,
+  "failure": {
+    "phase": "plus",
+    "rank": 147,
+    "input_index": 177,
+    "input": "[[9, -6, 20999, 2, 8, -4, -10, 26, 6, 5, -1, 8]]",
+    "expected": "-0.02777033164296834",
+    "actual": "-0.02777033164296834",
+    "exception": null
+  },
+  "elapsed_seconds": 0.13247479998972267,
+  "returncode": 0,
+  "wall_seconds": 0.9783835000125691
+}

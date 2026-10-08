@@ -1,0 +1,16 @@
+{
+  "model": "code-llama-7b_temp_0.0",
+  "task_id": "HumanEval/141",
+  "entry_point": "file_name_check",
+  "base_n": 26,
+  "plus_n": 1000,
+  "status": "load_error",
+  "base_pass": false,
+  "base_executed": 0,
+  "plus_executed": 0,
+  "plus_first_failure_rank": null,
+  "phase": "setup",
+  "error": "SyntaxError: expected ':' (<unknown>, line 28)",
+  "returncode": 0,
+  "wall_seconds": 0.5638857000158168
+}

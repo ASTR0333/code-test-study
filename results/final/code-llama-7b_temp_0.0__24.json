@@ -1,0 +1,18 @@
+{
+  "model": "code-llama-7b_temp_0.0",
+  "task_id": "HumanEval/24",
+  "entry_point": "largest_divisor",
+  "base_n": 5,
+  "plus_n": 168,
+  "status": "pass",
+  "base_pass": true,
+  "base_executed": 5,
+  "plus_executed": 168,
+  "plus_first_failure_rank": null,
+  "phase": "plus",
+  "current_rank": 168,
+  "current_input_index": 53,
+  "elapsed_seconds": 1.2101345999981277,
+  "returncode": 0,
+  "wall_seconds": 1.8726567999983672
+}

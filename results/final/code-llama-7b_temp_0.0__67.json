@@ -1,0 +1,27 @@
+{
+  "model": "code-llama-7b_temp_0.0",
+  "task_id": "HumanEval/67",
+  "entry_point": "fruit_distribution",
+  "base_n": 7,
+  "plus_n": 341,
+  "status": "mismatch",
+  "base_pass": false,
+  "base_executed": 1,
+  "plus_executed": 0,
+  "plus_first_failure_rank": null,
+  "phase": "base",
+  "current_rank": 1,
+  "current_input_index": 0,
+  "failure": {
+    "phase": "base",
+    "rank": 1,
+    "input_index": 0,
+    "input": "['5 apples and 6 oranges', 19]",
+    "expected": "8",
+    "actual": "None",
+    "exception": "ValueError: invalid literal for int() with base 10: 'and'"
+  },
+  "elapsed_seconds": 4.0799990529194474e-05,
+  "returncode": 0,
+  "wall_seconds": 0.5697367000102531
+}

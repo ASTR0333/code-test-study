@@ -1,0 +1,27 @@
+{
+  "model": "code-llama-7b_temp_0.0",
+  "task_id": "HumanEval/95",
+  "entry_point": "check_dict_case",
+  "base_n": 14,
+  "plus_n": 510,
+  "status": "mismatch",
+  "base_pass": false,
+  "base_executed": 3,
+  "plus_executed": 0,
+  "plus_first_failure_rank": null,
+  "phase": "base",
+  "current_rank": 3,
+  "current_input_index": 2,
+  "failure": {
+    "phase": "base",
+    "rank": 3,
+    "input_index": 2,
+    "input": "[{'p': 'pineapple', 'A': 'banana', 'B': 'banana'}]",
+    "expected": "False",
+    "actual": "True",
+    "exception": null
+  },
+  "elapsed_seconds": 7.979999645613134e-05,
+  "returncode": 0,
+  "wall_seconds": 0.5754110999987461
+}

@@ -1,0 +1,18 @@
+{
+  "model": "gpt-4-1106-preview_temp_0.0",
+  "task_id": "HumanEval/123",
+  "entry_point": "get_odd_collatz",
+  "base_n": 4,
+  "plus_n": 139,
+  "status": "pass",
+  "base_pass": true,
+  "base_executed": 4,
+  "plus_executed": 139,
+  "plus_first_failure_rank": null,
+  "phase": "plus",
+  "current_rank": 139,
+  "current_input_index": 110,
+  "elapsed_seconds": 0.008435600000666454,
+  "returncode": 0,
+  "wall_seconds": 0.6418661000207067
+}

@@ -1,0 +1,27 @@
+{
+  "model": "gpt-4-1106-preview_temp_0.0",
+  "task_id": "HumanEval/101",
+  "entry_point": "words_string",
+  "base_n": 6,
+  "plus_n": 1000,
+  "status": "mismatch",
+  "base_pass": false,
+  "base_executed": 4,
+  "plus_executed": 0,
+  "plus_first_failure_rank": null,
+  "phase": "base",
+  "current_rank": 4,
+  "current_input_index": 3,
+  "failure": {
+    "phase": "base",
+    "rank": 4,
+    "input_index": 3,
+    "input": "['One,, two, three, four, five, six,']",
+    "expected": "['One', 'two', 'three', 'four', 'five', 'six']",
+    "actual": "['One', 'two', 'three', 'four', 'five', 'six', '']",
+    "exception": null
+  },
+  "elapsed_seconds": 0.00015170002006925642,
+  "returncode": 0,
+  "wall_seconds": 0.5701179000025149
+}

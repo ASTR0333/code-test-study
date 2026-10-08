@@ -1,0 +1,27 @@
+{
+  "model": "code-llama-7b_temp_0.0",
+  "task_id": "HumanEval/91",
+  "entry_point": "is_bored",
+  "base_n": 6,
+  "plus_n": 1000,
+  "status": "mismatch",
+  "base_pass": false,
+  "base_executed": 2,
+  "plus_executed": 0,
+  "plus_first_failure_rank": null,
+  "phase": "base",
+  "current_rank": 2,
+  "current_input_index": 1,
+  "failure": {
+    "phase": "base",
+    "rank": 2,
+    "input_index": 1,
+    "input": "['Is the sky blue?']",
+    "expected": "0",
+    "actual": "1",
+    "exception": null
+  },
+  "elapsed_seconds": 4.5599997974932194e-05,
+  "returncode": 0,
+  "wall_seconds": 0.5731648000073619
+}

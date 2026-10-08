@@ -1,0 +1,27 @@
+{
+  "model": "code-llama-7b_temp_0.0",
+  "task_id": "HumanEval/9",
+  "entry_point": "rolling_max",
+  "base_n": 4,
+  "plus_n": 959,
+  "status": "mismatch",
+  "base_pass": false,
+  "base_executed": 1,
+  "plus_executed": 0,
+  "plus_first_failure_rank": null,
+  "phase": "base",
+  "current_rank": 1,
+  "current_input_index": 0,
+  "failure": {
+    "phase": "base",
+    "rank": 1,
+    "input_index": 0,
+    "input": "[[]]",
+    "expected": "[]",
+    "actual": "None",
+    "exception": "IndexError: list index out of range"
+  },
+  "elapsed_seconds": 6.650001159869134e-05,
+  "returncode": 0,
+  "wall_seconds": 0.8216783000098076
+}

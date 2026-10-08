@@ -1,0 +1,18 @@
+{
+  "model": "gpt-4-1106-preview_temp_0.0",
+  "task_id": "HumanEval/67",
+  "entry_point": "fruit_distribution",
+  "base_n": 7,
+  "plus_n": 341,
+  "status": "pass",
+  "base_pass": true,
+  "base_executed": 7,
+  "plus_executed": 341,
+  "plus_first_failure_rank": null,
+  "phase": "plus",
+  "current_rank": 341,
+  "current_input_index": 97,
+  "elapsed_seconds": 0.0020182000007480383,
+  "returncode": 0,
+  "wall_seconds": 0.589674599992577
+}

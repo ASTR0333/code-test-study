@@ -1,0 +1,27 @@
+{
+  "model": "gpt-4-1106-preview_temp_0.0",
+  "task_id": "HumanEval/124",
+  "entry_point": "valid_date",
+  "base_n": 16,
+  "plus_n": 985,
+  "status": "mismatch",
+  "base_pass": true,
+  "base_executed": 16,
+  "plus_executed": 446,
+  "plus_first_failure_rank": 446,
+  "phase": "plus",
+  "current_rank": 446,
+  "current_input_index": 532,
+  "failure": {
+    "phase": "plus",
+    "rank": 446,
+    "input_index": 532,
+    "input": "['06-04-2020\\n']",
+    "expected": "False",
+    "actual": "True",
+    "exception": null
+  },
+  "elapsed_seconds": 0.0030715999891981483,
+  "returncode": 0,
+  "wall_seconds": 0.6319644000031985
+}

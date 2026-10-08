@@ -1,0 +1,16 @@
+{
+  "model": "gpt-4-1106-preview_temp_0.0",
+  "task_id": "HumanEval/130",
+  "entry_point": "tri",
+  "base_n": 10,
+  "plus_n": 115,
+  "status": "load_error",
+  "base_pass": false,
+  "base_executed": 0,
+  "plus_executed": 0,
+  "plus_first_failure_rank": null,
+  "phase": "setup",
+  "error": "NameError: name 'n' is not defined",
+  "returncode": 0,
+  "wall_seconds": 0.7462938999815378
+}

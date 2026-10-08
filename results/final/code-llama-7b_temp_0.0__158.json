@@ -1,0 +1,27 @@
+{
+  "model": "code-llama-7b_temp_0.0",
+  "task_id": "HumanEval/158",
+  "entry_point": "find_max",
+  "base_n": 10,
+  "plus_n": 897,
+  "status": "mismatch",
+  "base_pass": false,
+  "base_executed": 2,
+  "plus_executed": 0,
+  "plus_first_failure_rank": null,
+  "phase": "base",
+  "current_rank": 2,
+  "current_input_index": 1,
+  "failure": {
+    "phase": "base",
+    "rank": 2,
+    "input_index": 1,
+    "input": "[['name', 'enam', 'game']]",
+    "expected": "'enam'",
+    "actual": "'name'",
+    "exception": null
+  },
+  "elapsed_seconds": 5.1799986977130175e-05,
+  "returncode": 0,
+  "wall_seconds": 0.5634099000017159
+}

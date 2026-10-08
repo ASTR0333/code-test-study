@@ -1,0 +1,18 @@
+{
+  "model": "canonical",
+  "task_id": "HumanEval/125",
+  "entry_point": "split_words",
+  "base_n": 8,
+  "plus_n": 804,
+  "status": "pass",
+  "base_pass": true,
+  "base_executed": 8,
+  "plus_executed": 804,
+  "plus_first_failure_rank": null,
+  "phase": "plus",
+  "current_rank": 804,
+  "current_input_index": 307,
+  "elapsed_seconds": 0.006813800020609051,
+  "returncode": 0,
+  "wall_seconds": 0.619896099990001
+}
